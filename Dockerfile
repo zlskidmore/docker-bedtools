@@ -2,7 +2,7 @@
 FROM ubuntu:18.04
 
 # set environment variables
-ENV bedtools_version 2.27.1
+ENV bedtools_version 2.29.0
 
 # Install dependencies
 RUN apt-get update -y && apt-get install -y \
