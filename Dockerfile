@@ -14,7 +14,8 @@ RUN apt-get update -y && apt-get install -y \
     zlib1g-dev \
     python \
     python-pip \
-    libbz2-dev
+    libbz2-dev \
+    liblzma-dev
 
 # install bedtools
 WORKDIR /usr/local/bin
